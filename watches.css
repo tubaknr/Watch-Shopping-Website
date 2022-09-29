@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Noto Serif', serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(118, 118, 118);
+    width: 100%;
+    background-color: rgb(11, 11, 11);
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #000000;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top:0;
+    left:0;
+}
+
+#logo{
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 26px;
+    color: #fff;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style:none;
+    padding: 15px 15px;
+    position: relative;
+    padding-right: 60px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: #b1963c;
+}
+
+#bigbang h2,
+#zenith h2{
+    margin-top: 40px;
+    text-align: center;
+    color:#fff;
+    font-weight: 400;
+}
+
+#bigbang p,
+#zenith p{
+    color: #fff;
+    font-style: italic;
+    margin: 40px;
+    text-align: center;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+#bigbang h3,
+#zenith h3{
+    font-weight: 250;
+}
+
+#bigbang h4{
+    font-weight: 550;
+    font-size: 15px;
+}
+
+#bigbang-products,
+#zenith-products{
+    display: flex;
+    text-align: center;
+    cursor:pointer;
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+}
+
+#stars{
+    padding-top:2px;
+    padding: 5px;
+    color:#b1963c;
+    font-size: 14px;
+}
+
+
+#pro1 button{
+    padding: 5px 14px;
+    background-color: black;
+    color: #fff;
+    border-color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#pro1 button:hover{
+    background-color: #b1963c;
+    color: #fff;
+    border-color: #fff;
+}
+
+#pro1{
+    color: #fff;
+}
+
+#pro1 img{
+    width: 90%;
+    height: 90%;
+}
+
+#zenith{
+    padding: 20px;
+    
+}
+
+
+#zenith h2{
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+#all-rights{
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#all-rights h3{
+    font-weight: 100;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#follow{
+    margin-top: 7px;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+}
+
+#follow h4{
+    margin-bottom: 4px;
+}
+
+#contact p{
+    padding-bottom: 5px;
+}
+
+#contact span{
+    font-style: italic;
+}
+
+
