@@ -1,0 +1,192 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Noto Serif", serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(118,118,118);
+    width: 100%;
+    background-color: rgb(11,11,11);
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #000;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top:0;
+    left:0;
+}
+
+#logo{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 15px 15px;
+    position: relative;
+    padding-right: 60px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: #b1963c;
+}
+
+#our-world,
+#our-world-2,
+#and-now{
+    color: #fff;
+    font-weight: 1;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#our-world h2,
+#our-world-2 h2,
+#and-now h2{
+    padding-top: 30px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#our-world p,
+#our-world-2 p,
+#and-now p{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    margin: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+#our-world h4,
+#and-now h4{
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#wm-image-4{
+    width: 50%;
+}
+#wm-image-3{
+    width: 80%;
+}
+#wm-image-2{
+    width: 70%;
+}
+
+#all-rights{
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#all-rights{
+    font-weight: 100;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#contact{
+    color: #fff;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#follow{
+    color: #fff;
+    cursor: pointer;
+}
+
+#follow h4{
+    margin-bottom: 4px;
+}
+
+#contact p{
+    padding-bottom: 5px;
+}
+
+#contact span{
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

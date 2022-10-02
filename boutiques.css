@@ -1,0 +1,210 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Noto Serif", serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(118,118,118);
+    width: 100%;
+    background-color: rgb(11,11,11);
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #000;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top:0;
+    left:0;
+}
+
+#logo{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 15px 15px;
+    position: relative;
+    padding-right: 60px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: #b1963c;
+}
+
+#text h4{
+    padding: 5px;
+    font-weight: 300;
+    padding-bottom: 7px;
+    padding-top: 10px;
+}
+
+#map{
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+#map input{
+    color:#fff;
+    border-color:#fff;
+    padding: 5px;
+    width: 40vh;
+    border-radius: 5px;
+    outline: none;
+}
+
+#text{
+    color: #fff;
+}
+
+#text h3{
+    color: #fff;
+    padding-top: 40px;
+}
+
+#form{
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+#form input{
+    height: 95px;
+    width: 250px;
+}
+
+#map button{
+    align-items: center;
+    text-align: center;
+    width: 5%;
+    height: 45px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: #fff;
+    outline: none;
+}
+
+#map button:hover{
+    background-color:#b39531;
+    color:#fff;
+    border-color:#b39531;
+}
+
+#map-image{
+    width : 60%;
+}
+
+#all-rights{
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#all-rights{
+    font-weight: 100;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#contact{
+    padding-top: 20px;
+    color: #fff;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#follow{
+    color: #fff;
+    cursor: pointer;
+    padding: 25px;
+}
+
+#follow h4{
+    margin-bottom: 4px;
+}
+
+#contact p{
+    padding-bottom: 5px;
+}
+
+#contact span{
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
